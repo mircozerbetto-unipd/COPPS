@@ -1,0 +1,19 @@
+# data for component 1
+Component:1
+## filed1
+Field:400.0:MHz
+T1:126.5:10.0:ms
+T2:106.4:1.5:ms
+NOE:1.86:0.1:-
+## filed 2
+Field:600.0:MHz
+T1:165.5:14.0:ms
+T2:127.7:1.5:ms
+NOE:1.58:0.1:-
+## filed 3
+Field:900.0:MHz
+T1:219.4:14.0:ms
+T2:151.8:1.5:ms
+NOE:1.45:0.1:-
+## M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg

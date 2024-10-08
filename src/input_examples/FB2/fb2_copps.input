@@ -1,0 +1,227 @@
+###########################################################################
+#                            TEMPLATE INPUT FILE                          #
+#                                                                         #
+# Lines starting with # are considered as comments and ignored by C++OPPS #
+# There's no specific ordering for keywords                               #
+# If some keywords are missing, C++OPPS will assign some defaults to them #
+#                                                                         #
+###########################################################################
+#
+# WARNING : DO NOT PLASE SPACES OR TABS AT THE END OF LINES OR C++OPPS
+#           WILL NOT INTERPRET CORRECTLY THE LAST ENTRY OF THE KEYWORD OPTIONS
+#
+### DYNAMICS ############################################################################
+#
+# Model for dynamics: choose among SRLS, FB1 and FB2
+#
+dynamics:FB2
+#
+### DIFFUSION TENSOR ####################################################################
+# Diffusion tensor
+# NOTE: use the 'FIT' flag on dxx
+#       to fit the isotropic value of
+#       the diffusion tensor.
+#
+dxx:7.7e6:Hz:fix
+dyy:8.3e6:Hz:fix
+dzz:4.1e8:Hz:fix
+d11:3.8e8:Hz:fix
+d22:4.1e8:Hz:fix
+d12:-3.9e8:Hz:fix
+dx1:-4.1e4:Hz:fix
+dy1:8.0e5:Hz:fix
+dz1:-3.8e8:Hz:fix
+dx2:-3.2e4:Hz:fix
+dy2:-1.2e6:Hz:fix
+dz2:4.0e8:Hz:fix
+#
+### OMEGA_D #############################################################################
+#
+# Euler angles transofrming from local ordering frame (OF) to dipolar frame (DF)
+#
+dipolar_alpha:122.6:deg:fix
+dipolar_beta:63.8:deg:fix
+dipolar_gamma:-0.1:deg:fix
+#
+### OMEGA_CSA ###########################################################################
+#
+# Euler angles tranforming from dipolar frame (DF) to CSA frame (CF)
+#
+csa_alpha:0.0:deg:fix
+csa_beta:-17.0:deg:fix
+csa_gamma:0.0:deg:fix
+#
+### OMEGA_D2 ############################################################################
+#
+# Euler angles transofrming from local ordering frame (DF) to dipolar frame (D2F)
+#
+dipolar_alpha2:0.0:deg:fix
+dipolar_beta2:0.0:deg:fix
+dipolar_gamma2:0.0:deg:fix
+#
+### TORSIONAL POTENTIAL #################################################################
+#
+# Internal potential coefficients are introduced as
+#
+# potential_coefficient_t2:n1Max,n2Max
+# Re{c(-n1,-n2)} Im{c(-n1,-n2)} Re{c(-n1,-n2+1)} Im{c(-n1,-n2+1)} ... Re{c(-n1, n2)} Im{c(-n1, n2)}
+# ...            ...            ...              ...              ... ...           ...
+# Re{c( n1,-n2)} Im{c( n1,-n2)} Re{c( n1,-n2+1)} Im{c( n1,-n2+1)} ... Re{c( n1, n2)} Im{c( n1, n2)}
+#
+#
+# NOTE: the the rule c(-n1,-n2) = c(n1,n2)* must hold
+#
+potential_coefficient_t2:1:1
+0.5 0.0 0.5 0.0 0.5 0.0
+0.5 0.0 0.5 0.0 0.5 0.0
+0.5 0.0 0.5 0.0 0.5 0.0
+#
+### RATE OF EXCHANGE ####################################################################
+#
+Rexchange:0.0:Hz:fix
+#
+### HYDRODYNAMICS #######################################################################
+#
+################# NOTE ON HYDRODYNAMICS INFORMATION #########################
+#                                                                           #
+# Actually the copps executable does not call directly the diffusion        #
+# tensor calculation (as the GUI does), so information on T, viscosity,     #
+# and effective radius are not used                                         #
+#                                                                           #
+#############################################################################
+#
+# Temperature
+#
+temperature:298.15:K:fix
+#
+# Viscosity
+#
+viscosity:0.89:cP:fix
+#
+# Effective radius of spheres
+#
+effective_radius:2.0:A:fix
+#
+### FITTING FLAG ########################################################################
+#
+#  0 = no fitting, 1 = fitting, regardless of the fix/fit tags
+#
+fitting:0:-:fix
+#
+### FITTING ROUTINE #####################################################################
+# 
+# Avalilable routines are MINPACK, LEVMAR (performances not tested yet) and POWELL
+#
+fitting_method:powell:-:fix
+#
+### FIT TOLERANCES (MINPACK ONLY) #######################################################
+#
+# the first number is given to xtol, ftol and gtol
+# the second number is given to epsfcn
+#
+# please, make reference to the MINPACK user guide:
+# http://www.mcs.anl.gov/~more/ANL8074a.pdf
+#
+fit_tolerance:1.0e-5:1.0e-2
+#
+### RECTIFICATION OF CHI-SQUARE #########################################################
+#
+# if one of the diffusion coefficients becomes smaller than the
+# Dmin value (first argument), the chi-square is
+# corrected with this term (K is the second argument):
+#
+# K*(min{Dprotein,Dprobe} - Dmin)^2
+#
+rectification:1.0e5:1.0e6
+#
+### FITTING STOP CONDITIONS #############################################################
+#
+# The fitting rouine will exit if the relative difference between the order parameters
+# after n+1 (where n = number of fitting parameters) is less than the indicated tolerance
+#
+order_parameters_tolerance:0.0e-2
+#
+### NUMBER OF MONTECARLO INTEGRATION STEPS ##############################################
+#
+# This parameter controls the lenght of the Metropolis - Montecarlo chain
+# generated to calculate the integrals
+#
+#  S_0^2pi dt1 S_0^2pi dt2 exp[-i(n1 t1 + n2 t2)] Peq^1/2(t1,t2)
+#
+# Larger is this number and higher is the precision of the integrals, but slower the
+# calculations.
+#
+montecarlo_steps:5000
+#
+### MAX ITERATIONS IN LANCZOS ROUTINE ###################################################
+#
+# If a number <= 0 is introduced, C++OPPS will use
+# the 15% of the dimension of the basis as max Lanczos steps
+#
+lanczos_max_n_step:0:-:fix
+#
+### N MAX TRUNCATION FOR INTERNAL ROTATIONS #############################################
+#
+N1max:2:-:fix
+N2max:2:-:fix
+#
+### LIST OF FIELDS ######################################################################
+#
+# This keyword can be repeated at will, permitting the simultaneous
+# calculation at different fields. If the fitting flag = 1 then the
+# Field keywords are ignored and replaced by those defined in the
+# _copps.exp file
+#
+Field:100.0:MHz:fix
+#
+### NUCLEUS PARAMETERS ##################################################################
+#
+# Allowed nuclei are: N15 and C13
+# The following parameters are the NH or CH bond lenght (in A) and the deltaCSA (in ppm)
+#
+Nucleus:N15:1.015:-169.0
+Hydrogens:1
+#
+### OUTPUT OF CORRELATION FUNCTIONS AND SPECTRAL DENSITIES ##############################
+#
+# C++OPPS can output correlation functions and spectral densities with,
+# respectively, the two keywords:
+#
+# ACF:Nt:ti:tf
+#
+# and
+#
+# SPD:Nw:wi:wf
+#
+# where:
+# 
+# - Nt and Nw are the (integer) numbers of time and frequency points for the
+#   discretization of the functions
+#
+# - ti and tf are the (floating point) extremes of the interval where to 
+#   calculate the autocorrelation functions
+#
+# - wi and wf are the (floting point) extremes of the interval where to
+#   calculate the spectral densities
+#
+### IMPORTANT! ###
+#
+# Times and frequencies are expressed in terms of the internal scale of
+# the program, which is Dyy of the second body, i.e. D2yy. So, in
+# input ti and tf must be given in units of 1/D12yy, while wi anf wf
+# must be given in units of D2yy.
+#
+# E.g.: if D2yy = 1.0e8 Hz and the correlation functions are going to
+#       be calculated in the interval [0.0, 1.0e-9] s then ti = 0.0
+#       and tf = 1.0e-9 s * 1.0e8 Hz = 0.1.
+#       If the spectral densities are going to be calculated in the
+#       interval [0.0, 1.0e10] Hz, then wi = 0.0 and 
+#       wf = 1.0e10 Hz / 1.0e8 Hz = 100.0
+#
+# IN OUTPUT C++OPPS RETURNS SCALED TIMES AND FREQUENCIES
+#
+# A high number of files are produced with this option. Take as reference the
+# technical_details.pdf file in the doc directory of the package, eq. 106 and below.
+#
+#ACF:1000:0.0:2.0
+#SPD:10240:0.0:200.0

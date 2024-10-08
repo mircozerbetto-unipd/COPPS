@@ -1,0 +1,311 @@
+###########################################################################
+#                            TEMPLATE INPUT FILE                          #
+#                                                                         #
+# Lines starting with # are considered as comments and ignored by C++OPPS #
+# There's no specific ordering for keywords                               #
+# If some keywords are missing, C++OPPS will assign some defaults to them #
+#                                                                         #
+###########################################################################
+#
+# WARNING : DO NOT PLASE SPACES OR TABS AT THE END OF LINES OR C++OPPS
+#           WILL NOT INTERPRET CORRECTLY THE LAST ENTRY OF THE KEYWORD OPTIONS
+#
+### DYNAMICS ############################################################################
+#
+# Model for dynamics: choose among SRLS, FB1 and FB2
+#
+dynamics:FB2
+#
+### DIFFUSION TENSOR ####################################################################
+# Diffusion tensor
+# NOTE: use the 'FIT' flag on dxx
+#       to fit the isotropic value of
+#       the diffusion tensor.
+#
+dxx:7.7e6:Hz:fix
+dyy:8.3e6:Hz:fix
+dzz:4.1e8:Hz:fix
+d11:3.8e8:Hz:fix
+d22:4.1e8:Hz:fix
+d12:-3.9e8:Hz:fix
+dx1:-4.1e4:Hz:fix
+dy1:8.0e5:Hz:fix
+dz1:-3.8e8:Hz:fix
+dx2:-3.2e4:Hz:fix
+dy2:-1.2e6:Hz:fix
+dz2:4.0e8:Hz:fix
+#
+### OMEGA_D #############################################################################
+#
+# Euler angles transofrming from local ordering frame (OF) to dipolar frame (DF)
+#
+dipolar_alpha:122.6:deg:fix
+dipolar_beta:63.8:deg:fix
+dipolar_gamma:-0.1:deg:fix
+#
+### OMEGA_CSA ###########################################################################
+#
+# Euler angles tranforming from dipolar frame (DF) to CSA frame (CF)
+#
+csa_alpha:0.0:deg:fix
+csa_beta:-17.0:deg:fix
+csa_gamma:0.0:deg:fix
+#
+### OMEGA_D2 ############################################################################
+#
+# Euler angles transofrming from local ordering frame (DF) to dipolar frame (D2F)
+#
+dipolar_alpha2:0.0:deg:fix
+dipolar_beta2:0.0:deg:fix
+dipolar_gamma2:0.0:deg:fix
+#
+### TORSIONAL POTENTIAL #################################################################
+#
+# Internal potential coefficients (n >= 0)
+# NOTE: coefficients with n < 0 are obtained
+#       following the rule: c(-n) = c(n)*
+#
+# The actual implementation is for a potential U(t1,t2) ~ U(t1) + U(t2)
+#
+#potential_coefficient_t1:0.0:0.0:kT
+potential_coefficient_t1:-0.2909890234949694:0.0:kT
+potential_coefficient_t1:-0.216655886715071:0.1886930518163242:kT
+potential_coefficient_t1:-0.03775263176620045:0.2739070398836497:kT
+potential_coefficient_t1:0.142505527280314:0.2165767490078323:kT
+potential_coefficient_t1:0.2282698904334406:0.0625031719986117:kT
+potential_coefficient_t1:0.188464954790021:-0.09294196548800228:kT
+potential_coefficient_t1:0.06751125501950433:-0.168170243472267:kT
+potential_coefficient_t1:-0.05293025513984121:-0.1419817145872108:kT
+potential_coefficient_t1:-0.1096196317940393:-0.0549245158168949:kT
+potential_coefficient_t1:-0.09151616713965949:0.02836664660645858:kT
+potential_coefficient_t1:-0.03350496524630012:0.0639589917856936:kT
+potential_coefficient_t1:0.01742521961763483:0.04955083426499889:kT
+potential_coefficient_t1:0.0347134625830127:0.01326364912280664:kT
+potential_coefficient_t1:0.02208587783117161:-0.01392418952010687:kT
+potential_coefficient_t1:0.0004845168138135602:-0.01889430704957142:kT
+potential_coefficient_t1:-0.01200053578861804:-0.008191967119187677:kT
+potential_coefficient_t1:-0.01097852388892388:0.004116961206791333:kT
+potential_coefficient_t1:-0.002988338621070662:0.009056531504447629:kT
+potential_coefficient_t1:0.003752875938861043:0.006592123642057543:kT
+potential_coefficient_t1:0.005682019926105251:0.001468956981925009:kT
+potential_coefficient_t1:0.003867601732144767:-0.002319108521355368:kT
+potential_coefficient_t1:0.0007482658006926922:-0.003534224857784341:kT
+potential_coefficient_t1:-0.001985823740015638:-0.00253322588244186:kT
+potential_coefficient_t1:-0.003287851325766401:-1.534291496789084e-05:kT
+potential_coefficient_t1:-0.002337104145883354:0.002843821514747565:kT
+potential_coefficient_t1:0.0007439652654707941:0.004140245981494518:kT
+potential_coefficient_t1:0.004045229823529143:0.002386290230809383:kT
+potential_coefficient_t1:0.004763151448087062:-0.001683429207931236:kT
+potential_coefficient_t1:0.001720666296319146:-0.00496679958878601:kT
+potential_coefficient_t1:-0.002988463028492368:-0.004449143695467218:kT
+potential_coefficient_t1:-0.005416342533934577:-0.0001987904948047031:kT
+potential_coefficient_t1:-0.003350376148277185:0.004276198560503315:kT
+potential_coefficient_t1:0.001394936804113187:0.005111665559870629:kT
+potential_coefficient_t1:0.004524733900893603:0.001805616327451009:kT
+potential_coefficient_t1:0.00339684962368691:-0.002202050000692883:kT
+potential_coefficient_t1:-0.0003160327923841282:-0.002898968832662527:kT
+potential_coefficient_t1:-0.002244407710726764:0.0002053324159869782:kT
+potential_coefficient_t1:0.000217985803831575:0.003415678938445891:kT
+potential_coefficient_t1:0.005035650532647921:0.002464396927705311:kT
+potential_coefficient_t1:0.007240754017275587:-0.003076917478804693:kT
+potential_coefficient_t1:0.003703045108955818:-0.009008511558372139:kT
+potential_coefficient_t1:-0.003693387325129145:-0.01025287751776351:kT
+potential_coefficient_t1:-0.009634640149368939:-0.005551780695353432:kT
+potential_coefficient_t1:-0.01020987473273756:0.001462836088625503:kT
+potential_coefficient_t1:-0.006274703327932422:0.005820787784073449:kT
+potential_coefficient_t1:-0.00212520230028283:0.005817223127816808:kT
+potential_coefficient_t1:-0.0009639219287766457:0.00412210168583785:kT
+potential_coefficient_t1:-0.001808063468448089:0.004439534385756254:kT
+potential_coefficient_t1:-0.0009363979101072159:0.00727476739530813:kT
+potential_coefficient_t1:0.003712600226997552:0.00922935910929467:kT
+#
+#potential_coefficient_t2:0.0:0.0:kT
+potential_coefficient_t2:0.2981191629931162:0.0:kT
+potential_coefficient_t2:-0.1246727122868901:0.2665452291086623:kT
+potential_coefficient_t2:0.1811925094046323:0.2172956997352648:kT
+potential_coefficient_t2:0.2562406614833496:-0.06686179623430685:kT
+potential_coefficient_t2:0.04483194575272885:-0.2368352946041837:kT
+potential_coefficient_t2:-0.1717126325257631:-0.1260356637520518:kT
+potential_coefficient_t2:-0.1612001787694268:0.08516076557509994:kT
+potential_coefficient_t2:0.003969520969349737:0.1505950215368446:kT
+potential_coefficient_t2:0.1079554238237584:0.05155182930036672:kT
+potential_coefficient_t2:0.07309742222570176:-0.05376211136735937:kT
+potential_coefficient_t2:-0.00719301232932128:-0.06482047979216786:kT
+potential_coefficient_t2:-0.0392806006900381:-0.02005775343105624:kT
+potential_coefficient_t2:-0.0260605426369413:0.01113762103594241:kT
+potential_coefficient_t2:-0.008594309716280661:0.01684791519922629:kT
+potential_coefficient_t2:0.002017398422708495:0.01560204431591991:kT
+potential_coefficient_t2:0.01198043562198978:0.009976060756395332:kT
+potential_coefficient_t2:0.01485488901986361:-0.00344714125607492:kT
+potential_coefficient_t2:0.004194475192608721:-0.01300211742857881:kT
+potential_coefficient_t2:-0.007802896692191291:-0.007643934331164777:kT
+potential_coefficient_t2:-0.006835722161214883:0.003113705169835887:kT
+potential_coefficient_t2:0.001238004820124574:0.003956470099718615:kT
+potential_coefficient_t2:0.001656929380848013:-0.002230084883276057:kT
+potential_coefficient_t2:-0.004515949364506176:-0.001539392966835021:kT
+potential_coefficient_t2:-0.003604768254630264:0.006171728599959965:kT
+potential_coefficient_t2:0.006025956560091041:0.006688140214404439:kT
+potential_coefficient_t2:0.009385326580514075:-0.004049518487079134:kT
+potential_coefficient_t2:-0.001016841297105409:-0.01082932310864704:kT
+potential_coefficient_t2:-0.01091955608758715:-0.002162551252972133:kT
+potential_coefficient_t2:-0.004946686600061144:0.01002839917359133:kT
+potential_coefficient_t2:0.008530527564844905:0.007225094276583496:kT
+potential_coefficient_t2:0.009025440212709013:-0.006542945504195938:kT
+potential_coefficient_t2:-0.004040117199865474:-0.01018821800463402:kT
+potential_coefficient_t2:-0.01032193566622045:0.001196079913849492:kT
+potential_coefficient_t2:-0.001378564595616977:0.00911096481198212:kT
+potential_coefficient_t2:0.006755772751350599:0.002771226139245362:kT
+potential_coefficient_t2:0.002271438023168931:-0.004184231866701145:kT
+potential_coefficient_t2:-0.00278551568371034:4.852349230312541e-05:kT
+potential_coefficient_t2:0.003084813496509692:0.003721971125442833:kT
+potential_coefficient_t2:0.007179694317156619:-0.005041870302634311:kT
+potential_coefficient_t2:-0.004275539577775811:-0.01202515194992829:kT
+potential_coefficient_t2:-0.01615641577305571:0.0002218902481053572:kT
+potential_coefficient_t2:-0.006120071122641129:0.01745809087482129:kT
+potential_coefficient_t2:0.01490134245686718:0.01249068246996529:kT
+potential_coefficient_t2:0.01638423874528017:-0.009194144694587328:kT
+potential_coefficient_t2:-0.002579700898272277:-0.01629556871552709:kT
+potential_coefficient_t2:-0.01254804325447864:-0.002183721321201095:kT
+potential_coefficient_t2:-0.003180107621536352:0.007231197409780489:kT
+potential_coefficient_t2:0.003224580252295269:0.0003360849329740843:kT
+potential_coefficient_t2:-0.004477988270234863:-0.002769984157930885:kT
+potential_coefficient_t2:-0.006314529490754142:0.008338853555502934:kT
+#
+### RATE OF EXCHANGE ####################################################################
+#
+Rexchange:0.0:Hz:fix
+#
+### HYDRODYNAMICS #######################################################################
+#
+################# NOTE ON HYDRODYNAMICS INFORMATION #########################
+#                                                                           #
+# Actually the copps executable does not call directly the diffusion        #
+# tensor calculation (as the GUI does), so information on T, viscosity,     #
+# and effective radius are not used                                         #
+#                                                                           #
+#############################################################################
+#
+# Temperature
+#
+temperature:298.15:K:fix
+#
+# Viscosity
+#
+viscosity:0.89:cP:fix
+#
+# Effective radius of spheres
+#
+effective_radius:2.0:A:fix
+#
+### FITTING FLAG ########################################################################
+#
+#  0 = no fitting, 1 = fitting, regardless of the fix/fit tags
+#
+fitting:0:-:fix
+#
+### FITTING ROUTINE #####################################################################
+# 
+# Avalilable routines are MINPACK, LEVMAR (performances not tested yet) and POWELL
+#
+fitting_method:powell:-:fix
+#
+### FIT TOLERANCES (MINPACK ONLY) #######################################################
+#
+# the first number is given to xtol, ftol and gtol
+# the second number is given to epsfcn
+#
+# please, make reference to the MINPACK user guide:
+# http://www.mcs.anl.gov/~more/ANL8074a.pdf
+#
+fit_tolerance:1.0e-5:1.0e-2
+#
+### RECTIFICATION OF CHI-SQUARE #########################################################
+#
+# if one of the diffusion coefficients becomes smaller than the
+# Dmin value (first argument), the chi-square is
+# corrected with this term (K is the second argument):
+#
+# K*(min{Dprotein,Dprobe} - Dmin)^2
+#
+rectification:1.0e5:1.0e6
+#
+### FITTING STOP CONDITIONS #############################################################
+#
+# The fitting rouine will exit if the relative difference between the order parameters
+# after n+1 (where n = number of fitting parameters) is less than the indicated tolerance
+#
+order_parameters_tolerance:0.0e-2
+#
+### MAX ITERATIONS IN LANCZOS ROUTINE ###################################################
+#
+# If a number <= 0 is introduced, C++OPPS will use
+# the 15% of the dimension of the basis as max Lanczos steps
+#
+lanczos_max_n_step:0:-:fix
+#
+### N MAX TRUNCATION FOR INTERNAL ROTATIONS #############################################
+#
+N1max:3:-:fix
+N2max:3:-:fix
+#
+### LIST OF FIELDS ######################################################################
+#
+# This keyword can be repeated at will, permitting the simultaneous
+# calculation at different fields. If the fitting flag = 1 then the
+# Field keywords are ignored and replaced by those defined in the
+# _copps.exp file
+#
+Field:100.0:MHz:fix
+#
+### NUCLEUS PARAMETERS ##################################################################
+#
+# Allowed nuclei are: N15 and C13
+# The following parameters are the NH or CH bond lenght (in A) and the deltaCSA (in ppm)
+#
+Nucleus:N15:1.015:-169.0
+Hydrogens:1
+#
+### OUTPUT OF CORRELATION FUNCTIONS AND SPECTRAL DENSITIES ##############################
+#
+# C++OPPS can output correlation functions and spectral densities with,
+# respectively, the two keywords:
+#
+# ACF:Nt:ti:tf
+#
+# and
+#
+# SPD:Nw:wi:wf
+#
+# where:
+# 
+# - Nt and Nw are the (integer) numbers of time and frequency points for the
+#   discretization of the functions
+#
+# - ti and tf are the (floating point) extremes of the interval where to 
+#   calculate the autocorrelation functions
+#
+# - wi and wf are the (floting point) extremes of the interval where to
+#   calculate the spectral densities
+#
+### IMPORTANT! ###
+#
+# Times and frequencies are expressed in terms of the internal scale (S) of
+# the program, which is Dyy of the second body (D2yy) in SRLS and Dzz in FBn.
+# Thus, in input ti and tf must be given in units of 1/S, while wi anf wf
+# must be given in units of S.
+#
+# E.g.: if S = 1.0e8 Hz and the correlation functions are going to
+#       be calculated in the interval [0.0, 1.0e-9] s then ti = 0.0
+#       and tf = 1.0e-9 s * 1.0e8 Hz = 0.1.
+#       If the spectral densities are going to be calculated in the
+#       interval [0.0, 1.0e10] Hz, then wi = 0.0 and 
+#       wf = 1.0e10 Hz / 1.0e8 Hz = 100.0
+#
+# IN OUTPUT C++OPPS RETURNS SCALED TIMES AND FREQUENCIES
+#
+# A high number of files are produced with this option. Take as reference the
+# technical_details.pdf file in the doc directory of the package, eq. 106 and below.
+#
+ACF:1000:0.0:2.0
+SPD:10000:0.0:200.0
+#smallj:read

@@ -1,0 +1,238 @@
+###########################################################################
+#                            TEMPLATE INPUT FILE                          #
+#                                                                         #
+# Lines starting with # are considered as comments and ignored by C++OPPS #
+# There's no specific ordering for keywords                               #
+# If some keywords are missing, C++OPPS will assign some defaults to them #
+#                                                                         #
+###########################################################################
+#
+# WARNING : DO NOT PLASE SPACES OR TABS AT THE END OF LINES OR C++OPPS
+#           WILL NOT INTERPRET CORRECTLY THE LAST ENTRY OF THE KEYWORD OPTIONS
+#
+#### DYNAMICS ###########################################################################
+#
+# Model for dynamics : choose among SRLS, TS-SRLS, FB1 and FB2
+#
+dynamics:3S-FB
+#
+##### NOTE ON FITTING TAGS ##############################################################
+#
+# the fitting tag can be 'fix' or 'fit'. Diffusion tensors allow, for Dyy and Dzz,
+# the special flag 'constrain'. The special options are:
+#    
+#    Dxx |   Dyy     | Dzz       | Behavior
+#    ----|-----------|-----------|----------------------------------------------------------
+#    fit | constrain | fix       | Changes Dxx only and assigns Dyy = Dxx at each step
+#        |           |           |
+#    fit | constrain | fit       | Changes Dxx and Dzz and assigns Dyy = Dxx at each step
+#        |           |           |
+#    fit | constrain | constrain | Changes Dyy keeping the ratios Dxx/Dyy and Dzz/Dyy fixed
+#    ----|-----------|-----------|----------------------------------------------------------
+#
+#
+#########################################################################################
+#
+### FIRST BODY DIFFUSION TENSOR #########################################################
+#
+# Components of the diffusion tensor expressed in M1F, where it is diagonal.
+#
+dxx:2.2e8:Hz:fix
+dyy:2.4e8:Hz:fix
+dzz:7.6e8:Hz:fix
+d11:1.3e9:Hz:fix
+dx1:1.6e8:Hz:fix
+dy1:-1.5e8:Hz:fix
+dz1:-6.0e8:Hz:fix
+#
+# EULER ANGLES FOR THE 3 SITE MODEL ARE SPECIFIED AS FOLLOWS
+# THESE DEFINITIONS OVERWRITE THE ''STANDARD'' KEYWORDS FOR
+# THE OHTER DYNAMIC MODELS
+#
+3sfb_alpha-dip1-site1:0.0:deg:fix
+3sfb_alpha-dip1-site2:0.0:deg:fix
+3sfb_alpha-dip1-site3:0.0:deg:fix
+3sfb_alpha-dip2-site1:0.0:deg:fix
+3sfb_alpha-dip2-site2:0.0:deg:fix
+3sfb_alpha-dip2-site3:0.0:deg:fix
+3sfb_alpha-csa-site1:0.0:deg:fix
+3sfb_alpha-csa-site2:0.0:deg:fix
+3sfb_alpha-csa-site3:0.0:deg:fix
+3sfb_beta-dip1-site1:0.0:deg:fix
+3sfb_beta-dip1-site2:0.0:deg:fix
+3sfb_beta-dip1-site3:0.0:deg:fix
+3sfb_beta-dip2-site1:0.0:deg:fix
+3sfb_beta-dip2-site2:0.0:deg:fix
+3sfb_beta-dip2-site3:0.0:deg:fix
+3sfb_beta-csa-site1:0.0:deg:fix
+3sfb_beta-csa-site2:0.0:deg:fix
+3sfb_beta-csa-site3:0.0:deg:fix
+3sfb_gamma-dip1-site1:0.0:deg:fix
+3sfb_gamma-dip1-site2:0.0:deg:fix
+3sfb_gamma-dip1-site3:0.0:deg:fix
+3sfb_gamma-dip2-site1:0.0:deg:fix
+3sfb_gamma-dip2-site2:0.0:deg:fix
+3sfb_gamma-dip2-site3:0.0:deg:fix
+3sfb_gamma-csa-site1:0.0:deg:fix
+3sfb_gamma-csa-site2:0.0:deg:fix
+3sfb_gamma-csa-site3:0.0:deg:fix
+#
+### POPULATIONS AND TRANSITION FREQUENCIES
+#
+3sfb_pop_site1:0.70:-:fix
+3sfb_pop_site2:0.29:-:fix
+3sfb_pop_site3:0.01:-:fix
+3sfb_w_1-2:1.0e9:Hz:fix
+3sfb_w_1-3:1.0e9:Hz:fix
+3sfb_w_2-3:1.0e9:Hz:fix
+### POTENTIAL COEFFICIENTS ##############################################################
+#
+### TORSIONAL POTENTIAL #################################################################
+# Internal potential coefficients (n >= 0)
+# NOTE: coefficients with n < 0 are obtained
+#       following the rule: c(-n) = c(n)*
+#
+potential_coefficient_t1:5.38:0.0:kT
+potential_coefficient_t1:-1.05:0.123:kT
+potential_coefficient_t1:-1.14:0.0359:kT
+potential_coefficient_t1:1.27:-0.155:kT
+potential_coefficient_t1:0.554:-0.670:kT
+potential_coefficient_t1:0.0928:-0.176:kT
+potential_coefficient_t1:-0.320:-0.0891:kT
+#
+### RATE OF EXCHANGE ####################################################################
+#
+Rexchange:0.0:Hz:fix
+#
+### HYDRODYNAMICS #######################################################################
+#
+################# NOTE ON HYDRODYNAMICS INFORMATION #########################
+#                                                                           #
+# Actually the copps executable does not call directly the diffusion        #
+# tensor calculation (as the GUI does), so information on T, viscosity,     #
+# and effective radius are not used                                         #
+#                                                                           #
+#############################################################################
+#
+# Temperature
+#
+temperature:298.15:K:fix
+#
+# Viscosity
+#
+viscosity:0.89:cP:fix
+#
+# Effective radius of spheres
+#
+effective_radius:2.0:A:fix
+#
+### FITTING FLAG ########################################################################
+#
+#  0 = no fitting, 1 = fitting, regardless of the fix/fit tags
+#
+fitting:0:-:fix
+#
+### FITTING ROUTINE #####################################################################
+# 
+# Avalilable routines are MINPACK, LEVMAR (performances not tested yet) and POWELL
+#
+fitting_method:powell:-:fix
+#
+### FIT TOLERANCES (MINPACK ONLY) #######################################################
+#
+# the first number is given to xtol, ftol and gtol
+# the second number is given to epsfcn
+#
+# please, make reference to the MINPACK user guide:
+# http://www.mcs.anl.gov/~more/ANL8074a.pdf
+#
+fit_tolerance:1.0e-5:1.0e-2
+#
+### RECTIFICATION OF CHI-SQUARE #########################################################
+#
+# if one of the diffusion coefficients becomes smaller than the
+# Dmin value (first argument), the chi-square is
+# corrected with this term (K is the second argument):
+#
+# K*(min{Dprotein,Dprobe} - Dmin)^2
+#
+rectification:1.0e5:1.0e6
+#
+### FITTING STOP CONDITIONS #############################################################
+#
+# The fitting rouine will exit if the relative difference between the order parameters
+# after n+1 (where n = number of fitting parameters) is less than the indicated tolerance
+#
+order_parameters_tolerance:0.0e-2
+#
+### MAX ITERATIONS IN LANCZOS ROUTINE ###################################################
+#
+# If a number <= 0 is introduced, C++OPPS will use
+# the 15% of the dimension of the basis as max Lanczos steps
+#
+lanczos_max_n_step:0:-:fix
+#
+### N MAX TRUNCATION FOR INTERNAL ROTATION ##############################################
+#
+Nmax:10:-:fix
+#
+### LIST OF FIELDS ######################################################################
+#
+# This keyword can be repeated at will, permitting the simultaneous
+# calculation at different fields. If the fitting flag = 1 then the
+# Field keywords are ignored and replaced by those defined in the
+# _copps.exp file
+#
+Field:100.0:MHz:fix
+#
+### NUCLEUS PARAMETERS ##################################################################
+#
+# Allowed nuclei are: N15 and C13
+# The following parameters are the NH or CH bond lenght (in A) and the deltaCSA (in ppm)
+#
+Nucleus:N15:1.02:-172.0
+Hydrogens:2
+#
+### OUTPUT OF CORRELATION FUNCTIONS AND SPECTRAL DENSITIES ##############################
+#
+# C++OPPS can output correlation functions and spectral densities with,
+# respectively, the two keywords:
+#
+# ACF:Nt:ti:tf
+#
+# and
+#
+# SPD:Nw:wi:wf
+#
+# where:
+# 
+# - Nt and Nw are the (integer) numbers of time and frequency points for the
+#   discretization of the functions
+#
+# - ti and tf are the (floating point) extremes of the interval where to 
+#   calculate the autocorrelation functions
+#
+# - wi and wf are the (floting point) extremes of the interval where to
+#   calculate the spectral densities
+#
+### IMPORTANT! ###
+#
+# Times and frequencies are expressed in terms of the internal scale of
+# the program, which is Dyy of the second body, i.e. D2yy. So, in
+# input ti and tf must be given in units of 1/D12yy, while wi anf wf
+# must be given in units of D2yy.
+#
+# E.g.: if D2yy = 1.0e8 Hz and the correlation functions are going to
+#       be calculated in the interval [0.0, 1.0e-9] s then ti = 0.0
+#       and tf = 1.0e-9 s * 1.0e8 Hz = 0.1.
+#       If the spectral densities are going to be calculated in the
+#       interval [0.0, 1.0e10] Hz, then wi = 0.0 and 
+#       wf = 1.0e10 Hz / 1.0e8 Hz = 100.0
+#
+# IN OUTPUT C++OPPS RETURNS SCALED TIMES AND FREQUENCIES
+#
+# A high number of files are produced with this option. Take as reference the
+# technical_details.pdf file in the doc directory of the package, eq. 106 and below.
+#
+#ACF:1000:0.0:2.0
+#SPD:10240:0.0:200.0
