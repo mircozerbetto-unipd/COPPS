@@ -1,0 +1,8 @@
+In C++OPPS 2.2 this new feature has been added:
+
+- a 3-sites FB model has been implemented, where diffusive dynamics of the
+  FB1 model (global rotation + 1 dihedral angle) is coupled to a master
+  equation for random jumps among 3 sites. Magnetic tensors can have different
+  orientations in the three sites.
+  
+  

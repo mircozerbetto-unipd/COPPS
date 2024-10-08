@@ -1,0 +1,1695 @@
+# data for component 1 - RESIDUE 2
+Component:1
+Residue:2
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.664:0.0498:s
+T2:0.2092:0.005:s
+NOE:-0.83:0.033:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.578:0.0314:s
+T2:0.195:0.0152:s
+NOE:-0.29:0.025:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 2 - RESIDUE 3
+Component:2
+Residue:3
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.5727:0.0459:s
+T2:0.1793:0.0062:s
+NOE:-0.28:0.02:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.5432:0.0289:s
+T2:0.161:0.0091:s
+NOE:0.189:0.019:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 3 - RESIDUE 4
+Component:3
+Residue:4
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6431:0.0244:s
+T2:0.1448:0.0066:s
+NOE:0.101:0.009:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6139:0.0166:s
+T2:0.1168:0.0057:s
+NOE:0.293:0.009:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 4 - RESIDUE 5
+Component:4
+Residue:5
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.5659:0.0208:s
+T2:0.1372:0.0059:s
+NOE:0.306:0.01:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.5382:0.0203:s
+T2:0.1085:0.005:s
+NOE:0.328:0.011:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 5 - RESIDUE 6
+Component:5
+Residue:6
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7117:0.0213:s
+T2:0.1233:0.0028:s
+NOE:0.397:0.016:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6974:0.0199:s
+T2:0.0795:0.003:s
+NOE:0.49:0.018:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 6 - RESIDUE 7
+Component:6
+Residue:7
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6892:0.019:s
+T2:0.0692:0.0016:s
+NOE:0.675:0.018:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.7987:0.0147:s
+T2:0.0571:0.0021:s
+NOE:0.773:0.019:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 7 - RESIDUE 9
+Component:7
+Residue:9
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8651:0.0284:s
+T2:0.0593:0.0009:s
+NOE:0.912:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9718:0.0227:s
+T2:0.0475:0.0044:s
+NOE:0.846:0.025:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 8 - RESIDUE 10
+Component:8
+Residue:10
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.771:0.0155:s
+T2:0.066:0.0007:s
+NOE:0.827:0.02:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9881:0.0225:s
+T2:0.049:0.0012:s
+NOE:0.827:0.025:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 9 - RESIDUE 11
+Component:9
+Residue:11
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7692:0.0219:s
+T2:0.0752:0.0016:s
+NOE:0.817:0.022:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9407:0.0088:s
+T2:0.0526:0.0017:s
+NOE:0.871:0.025:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 10 - RESIDUE 12
+Component:10
+Residue:12
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8264:0.0191:s
+T2:0.0593:0.001:s
+NOE:0.837:0.023:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:1.006:0.0162:s
+T2:0.0479:0.0019:s
+NOE:0.892:0.022:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 11 - RESIDUE 13
+Component:11
+Residue:13
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.777:0.0157:s
+T2:0.0631:0.001:s
+NOE:0.852:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:1.0267:0.019:s
+T2:0.048:0.0024:s
+NOE:0.869:0.026:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 12 - RESIDUE 14
+Component:12
+Residue:14
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8097:0.0151:s
+T2:0.0614:0.0009:s
+NOE:0.779:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:1.0438:0.024:s
+T2:0.048:0.0016:s
+NOE:0.866:0.023:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 13 - RESIDUE 15
+Component:13
+Residue:15
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8881:0.0457:s
+T2:0.0713:0.0015:s
+NOE:0.743:0.022:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:1.006:0.0172:s
+T2:0.0523:0.0016:s
+NOE:0.741:0.023:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 14 - RESIDUE 16
+Component:14
+Residue:16
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7231:0.0146:s
+T2:0.069:0.0016:s
+NOE:0.73:0.025:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8857:0.0235:s
+T2:0.0497:0.0017:s
+NOE:0.832:0.027:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 15 - RESIDUE 17
+Component:15
+Residue:17
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6789:0.0134:s
+T2:0.0928:0.0012:s
+NOE:0.595:0.019:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.7645:0.0164:s
+T2:0.0714:0.0029:s
+NOE:0.643:0.02:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 16 - RESIDUE 18
+Component:16
+Residue:18
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.5675:0.02:s
+T2:0.1079:0.0013:s
+NOE:0.52:0.019:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.5714:0.0206:s
+T2:0.085:0.0035:s
+NOE:0.644:0.02:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 17 - RESIDUE 20
+Component:17
+Residue:20
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6317:0.0319:s
+T2:0.1166:0.0021:s
+NOE:0.364:0.036:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6017:0.029:s
+T2:0.0879:0.0046:s
+NOE:0.457:0.048:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 18 - RESIDUE 21
+Component:18
+Residue:21
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.5893:0.0267:s
+T2:0.1136:0.003:s
+NOE:0.363:0.019:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6079:0.0237:s
+T2:0.0853:0.0031:s
+NOE:0.536:0.025:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 19 - RESIDUE 22
+Component:19
+Residue:22
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6357:0.036:s
+T2:0.1312:0.0024:s
+NOE:0.311:0.022:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.615:0.031:s
+T2:0.096:0.0042:s
+NOE:0.419:0.023:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 20 - RESIDUE 23
+Component:20
+Residue:23
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.609:0.0193:s
+T2:0.1382:0.0044:s
+NOE:0.42:0.019:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.639:0.0274:s
+T2:0.0945:0.0038:s
+NOE:0.509:0.019:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 21 - RESIDUE 24
+Component:21
+Residue:24
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6983:0.0297:s
+T2:0.1698:0.0066:s
+NOE:0.232:0.018:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6262:0.0223:s
+T2:0.0896:0.0033:s
+NOE:0.385:0.02:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 22 - RESIDUE 25
+Component:22
+Residue:25
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.668:0.0223:s
+T2:0.1007:0.0022:s
+NOE:0.29:0.016:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6693:0.0255:s
+T2:0.0852:0.0038:s
+NOE:0.515:0.019:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 23 - RESIDUE 26
+Component:23
+Residue:26
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6693:0.0166:s
+T2:0.0944:0.0012:s
+NOE:0.575:0.017:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.7429:0.0199:s
+T2:0.0735:0.0023:s
+NOE:0.587:0.016:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 24 - RESIDUE 27
+Component:24
+Residue:27
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8058:0.0182:s
+T2:0.0666:0.0009:s
+NOE:0.789:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9901:0.0137:s
+T2:0.0503:0.0011:s
+NOE:0.857:0.025:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 25 - RESIDUE 29
+Component:25
+Residue:29
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7746:0.0222:s
+T2:0.0644:0.0008:s
+NOE:0.851:0.017:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9662:0.0187:s
+T2:0.0508:0.0015:s
+NOE:0.877:0.025:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 26 - RESIDUE 30
+Component:26
+Residue:30
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.823:0.019:s
+T2:0.0633:0.0007:s
+NOE:0.823:0.023:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:1.0638:0.0102:s
+T2:0.0481:0.002:s
+NOE:0.882:0.024:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 27 - RESIDUE 31
+Component:27
+Residue:31
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7576:0.0161:s
+T2:0.0634:0.0005:s
+NOE:0.839:0.022:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9533:0.0182:s
+T2:0.0474:0.0013:s
+NOE:0.855:0.022:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 28 - RESIDUE 32
+Component:28
+Residue:32
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7278:0.0164:s
+T2:0.0613:0.0005:s
+NOE:0.823:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.885:0.0227:s
+T2:0.0441:0.0019:s
+NOE:0.913:0.026:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 29 - RESIDUE 33
+Component:29
+Residue:33
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7593:0.0144:s
+T2:0.0601:0.0011:s
+NOE:0.81:0.025:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9033:0.0163:s
+T2:0.0428:0.0015:s
+NOE:0.862:0.029:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 30 - RESIDUE 34
+Component:30
+Residue:34
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7424:0.0154:s
+T2:0.0604:0.0006:s
+NOE:0.837:0.027:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.854:0.0314:s
+T2:0.0447:0.0016:s
+NOE:0.841:0.028:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 31 - RESIDUE 35
+Component:31
+Residue:35
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6959:0.0179:s
+T2:0.0693:0.0044:s
+NOE:0.828:0.026:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.7651:0.0252:s
+T2:0.0455:0.0033:s
+NOE:0.876:0.033:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 32 - RESIDUE 36
+Component:32
+Residue:36
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6831:0.0173:s
+T2:0.0656:0.0017:s
+NOE:0.8:0.023:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8628:0.0201:s
+T2:0.0456:0.0025:s
+NOE:0.881:0.024:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 33 - RESIDUE 37
+Component:33
+Residue:37
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7391:0.0197:s
+T2:0.0586:0.0015:s
+NOE:0.872:0.03:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8097:0.0197:s
+T2:0.0415:0.0013:s
+NOE:0.92:0.038:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 34 - RESIDUE 38
+Component:34
+Residue:38
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.738:0.0196:s
+T2:0.0587:0.0019:s
+NOE:0.853:0.039:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8123:0.0205:s
+T2:0.0406:0.0006:s
+NOE:0.897:0.048:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 35 - RESIDUE 39
+Component:35
+Residue:39
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.731:0.0176:s
+T2:0.0618:0.0028:s
+NOE:0.859:0.032:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8361:0.021:s
+T2:0.0412:0.0016:s
+NOE:0.876:0.037:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 36 - RESIDUE 40
+Component:36
+Residue:40
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7541:0.0182:s
+T2:0.062:0.0007:s
+NOE:0.851:0.017:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8271:0.0239:s
+T2:0.0508:0.0015:s
+NOE:0.877:0.026:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 37 - RESIDUE 41
+Component:37
+Residue:41
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7547:0.0171:s
+T2:0.0552:0.0007:s
+NOE:0.855:0.026:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9276:0.0224:s
+T2:0.0435:0.0016:s
+NOE:0.916:0.032:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 38 - RESIDUE 42
+Component:38
+Residue:42
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7831:0.0147:s
+T2:0.0647:0.002:s
+NOE:0.852:0.025:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9124:0.02:s
+T2:0.0441:0.0012:s
+NOE:0.887:0.027:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 39 - RESIDUE 43
+Component:39
+Residue:43
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8104:0.0282:s
+T2:0.0647:0.0012:s
+NOE:0.861:0.027:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.969:0.0207:s
+T2:0.0456:0.0016:s
+NOE:0.869:0.029:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 40 - RESIDUE 44
+Component:40
+Residue:44
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7704:0.016:s
+T2:0.0629:0.0012:s
+NOE:0.839:0.029:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:1.0:0.02:s
+T2:0.0448:0.0013:s
+NOE:0.914:0.03:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 41 - RESIDUE 45
+Component:41
+Residue:45
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7502:0.0231:s
+T2:0.0607:0.0011:s
+NOE:0.839:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9709:0.0207:s
+T2:0.0365:0.002:s
+NOE:0.914:0.031:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 42 - RESIDUE 46
+Component:42
+Residue:46
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8217:0.0135:s
+T2:0.0613:0.0014:s
+NOE:0.831:0.026:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:1.0173:0.0197:s
+T2:0.0442:0.0014:s
+NOE:0.898:0.028:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 43 - RESIDUE 47
+Component:43
+Residue:47
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7899:0.0175:s
+T2:0.0727:0.0116:s
+NOE:0.779:0.025:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9823:0.0174:s
+T2:0.0654:0.0086:s
+NOE:0.93:0.026:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 44 - RESIDUE 48
+Component:44
+Residue:48
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7886:0.0143:s
+T2:0.0612:0.0008:s
+NOE:0.83:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.995:0.0198:s
+T2:0.0443:0.0015:s
+NOE:0.909:0.03:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 45 - RESIDUE 49
+Component:45
+Residue:49
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8425:0.017:s
+T2:0.0612:0.0011:s
+NOE:0.805:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:1.0309:0.017:s
+T2:0.0525:0.0018:s
+NOE:0.897:0.027:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 46 - RESIDUE 50
+Component:46
+Residue:50
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7868:0.0149:s
+T2:0.061:0.0008:s
+NOE:0.699:0.02:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9042:0.0294:s
+T2:0.0524:0.0018:s
+NOE:0.806:0.024:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 47 - RESIDUE 51
+Component:47
+Residue:51
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7402:0.0405:s
+T2:0.0624:0.0013:s
+NOE:0.68:0.033:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.7981:0.0439:s
+T2:0.0431:0.0013:s
+NOE:0.721:0.039:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 48 - RESIDUE 52
+Component:48
+Residue:52
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7663:0.0288:s
+T2:0.0634:0.0024:s
+NOE:0.734:0.022:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8666:0.027:s
+T2:0.0483:0.0013:s
+NOE:0.789:0.024:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 49 - RESIDUE 54
+Component:49
+Residue:54
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7184:0.031:s
+T2:0.068:0.0015:s
+NOE:0.663:0.022:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.7734:0.0377:s
+T2:0.0507:0.0024:s
+NOE:0.729:0.025:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 50 - RESIDUE 55
+Component:50
+Residue:55
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6807:0.0324:s
+T2:0.0645:0.001:s
+NOE:0.681:0.032:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.7364:0.0396:s
+T2:0.0461:0.0013:s
+NOE:0.737:0.037:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 51 - RESIDUE 56
+Component:51
+Residue:56
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7199:0.0228:s
+T2:0.072:0.0026:s
+NOE:0.739:0.021:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8482:0.0281:s
+T2:0.0497:0.0019:s
+NOE:0.84:0.029:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 52 - RESIDUE 57
+Component:52
+Residue:57
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7937:0.0189:s
+T2:0.0765:0.0006:s
+NOE:0.631:0.021:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.878:0.0224:s
+T2:0.0552:0.0017:s
+NOE:0.723:0.023:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 53 - RESIDUE 59
+Component:53
+Residue:59
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8052:0.0363:s
+T2:0.0493:0.0063:s
+NOE:0.811:0.023:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9452:0.0295:s
+T2:0.0404:0.0039:s
+NOE:0.775:0.023:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 54 - RESIDUE 61
+Component:54
+Residue:61
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7013:0.0182:s
+T2:0.0675:0.0008:s
+NOE:0.78:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.7911:0.0238:s
+T2:0.0475:0.0014:s
+NOE:0.878:0.025:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 55 - RESIDUE 62
+Component:55
+Residue:62
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7057:0.0149:s
+T2:0.0645:0.001:s
+NOE:0.794:0.033:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8292:0.0186:s
+T2:0.0462:0.0011:s
+NOE:0.884:0.036:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 56 - RESIDUE 63
+Component:56
+Residue:63
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6949:0.0169:s
+T2:0.0606:0.0008:s
+NOE:0.844:0.025:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.7782:0.0303:s
+T2:0.0433:0.0011:s
+NOE:0.84:0.026:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 57 - RESIDUE 64
+Component:57
+Residue:64
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7918:0.0144:s
+T2:0.0585:0.001:s
+NOE:0.816:0.027:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:1.003:0.0171:s
+T2:0.046:0.0016:s
+NOE:0.935:0.027:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 58 - RESIDUE 65
+Component:58
+Residue:65
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8197:0.0235:s
+T2:0.0672:0.0017:s
+NOE:0.854:0.026:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9718:0.0359:s
+T2:0.0463:0.0018:s
+NOE:0.888:0.031:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 59 - RESIDUE 66
+Component:59
+Residue:66
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7663:0.0188:s
+T2:0.0642:0.0009:s
+NOE:0.827:0.025:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9416:0.0106:s
+T2:0.0455:0.0013:s
+NOE:0.948:0.027:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 60 - RESIDUE 67
+Component:60
+Residue:67
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7634:0.0221:s
+T2:0.0702:0.0012:s
+NOE:0.813:0.029:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9025:0.0171:s
+T2:0.0444:0.0021:s
+NOE:0.966:0.031:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 61 - RESIDUE 68
+Component:61
+Residue:68
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7315:0.0166:s
+T2:0.0646:0.0005:s
+NOE:0.833:0.027:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8703:0.0227:s
+T2:0.0461:0.0013:s
+NOE:0.873:0.027:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 62 - RESIDUE 69
+Component:62
+Residue:69
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7092:0.0191:s
+T2:0.069:0.0006:s
+NOE:0.697:0.027:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8039:0.0336:s
+T2:0.0486:0.0012:s
+NOE:0.793:0.027:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 63 - RESIDUE 70
+Component:63
+Residue:70
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.5851:0.0411:s
+T2:0.0832:0.0032:s
+NOE:0.557:0.084:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.5718:0.0226:s
+T2:0.0655:0.0048:s
+NOE:0.7:0.101:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 64 - RESIDUE 71
+Component:64
+Residue:71
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6506:0.0309:s
+T2:0.1092:0.0027:s
+NOE:0.418:0.026:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6527:0.0303:s
+T2:0.0829:0.0026:s
+NOE:0.509:0.028:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 65 - RESIDUE 72
+Component:65
+Residue:72
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6127:0.0364:s
+T2:0.0689:0.0048:s
+NOE:0.469:0.027:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6592:0.0339:s
+T2:0.0566:0.0021:s
+NOE:0.611:0.031:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 66 - RESIDUE 73
+Component:66
+Residue:73
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6345:0.0246:s
+T2:0.0849:0.001:s
+NOE:0.538:0.021:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6575:0.0294:s
+T2:0.0605:0.0021:s
+NOE:0.676:0.026:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 67 - RESIDUE 74
+Component:67
+Residue:74
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7326:0.0381:s
+T2:0.0804:0.0024:s
+NOE:0.674:0.025:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6978:0.038:s
+T2:0.0445:0.0028:s
+NOE:0.758:0.027:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 68 - RESIDUE 75
+Component:68
+Residue:75
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8224:0.021:s
+T2:0.0861:0.0063:s
+NOE:0.771:0.022:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9891:0.0225:s
+T2:0.0464:0.0017:s
+NOE:0.879:0.024:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 69 - RESIDUE 76
+Component:69
+Residue:76
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8258:0.0143:s
+T2:0.0645:0.0008:s
+NOE:0.737:0.019:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:1.0395:0.0108:s
+T2:0.052:0.0026:s
+NOE:0.852:0.022:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 70 - RESIDUE 77
+Component:70
+Residue:77
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.757:0.0189:s
+T2:0.0624:0.0006:s
+NOE:0.833:0.023:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9099:0.0149:s
+T2:0.0435:0.0014:s
+NOE:0.916:0.028:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 71 - RESIDUE 78
+Component:71
+Residue:78
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7407:0.0187:s
+T2:0.062:0.0007:s
+NOE:0.793:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8757:0.0261:s
+T2:0.0464:0.0015:s
+NOE:0.834:0.023:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 72 - RESIDUE 79
+Component:72
+Residue:79
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7257:0.0211:s
+T2:0.0616:0.0015:s
+NOE:0.855:0.026:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.7746:0.0324:s
+T2:0.0467:0.0013:s
+NOE:0.846:0.027:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 73 - RESIDUE 80
+Component:73
+Residue:80
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7513:0.0215:s
+T2:0.0587:0.0014:s
+NOE:0.778:0.026:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8389:0.031:s
+T2:0.0428:0.0013:s
+NOE:0.847:0.032:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 74 - RESIDUE 81
+Component:74
+Residue:81
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7143:0.0204:s
+T2:0.0617:0.0011:s
+NOE:0.769:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.7794:0.0249:s
+T2:0.0459:0.0016:s
+NOE:0.84:0.03:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 75 - RESIDUE 82
+Component:75
+Residue:82
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8562:0.0154:s
+T2:0.0638:0.0021:s
+NOE:0.78:0.02:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.774:0.0371:s
+T2:0.0405:0.0013:s
+NOE:0.721:0.031:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 76 - RESIDUE 83
+Component:76
+Residue:83
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6266:0.0173:s
+T2:0.0566:0.0016:s
+NOE:0.652:0.029:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6532:0.0218:s
+T2:0.0406:0.0014:s
+NOE:0.77:0.031:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 77 - RESIDUE 84
+Component:77
+Residue:84
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6042:0.0252:s
+T2:0.0522:0.0043:s
+NOE:0.639:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6743:0.0232:s
+T2:0.0645:0.0024:s
+NOE:0.727:0.025:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 78 - RESIDUE 85
+Component:78
+Residue:85
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6439:0.024:s
+T2:0.0767:0.0009:s
+NOE:0.575:0.022:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6579:0.0268:s
+T2:0.0528:0.0018:s
+NOE:0.624:0.026:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 79 - RESIDUE 86
+Component:79
+Residue:86
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6536:0.0175:s
+T2:0.0723:0.0021:s
+NOE:0.472:0.017:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6916:0.023:s
+T2:0.0554:0.0016:s
+NOE:0.692:0.021:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 80 - RESIDUE 87
+Component:80
+Residue:87
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6072:0.0195:s
+T2:0.079:0.0027:s
+NOE:0.383:0.017:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.618:0.0222:s
+T2:0.0501:0.0017:s
+NOE:0.619:0.02:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 81 - RESIDUE 88
+Component:81
+Residue:88
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6373:0.0341:s
+T2:0.0698:0.0012:s
+NOE:0.366:0.032:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.5921:0.0337:s
+T2:0.0495:0.0005:s
+NOE:0.496:0.038:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 82 - RESIDUE 89
+Component:82
+Residue:89
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.5659:0.0208:s
+T2:0.1372:0.0059:s
+NOE:0.306:0.01:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.5382:0.0203:s
+T2:0.1085:0.005:s
+NOE:0.328:0.011:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 83 - RESIDUE 90
+Component:83
+Residue:90
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6431:0.0244:s
+T2:0.1448:0.0066:s
+NOE:0.154:0.009:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6139:0.0166:s
+T2:0.1168:0.0057:s
+NOE:0.327:0.009:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 84 - RESIDUE 91
+Component:84
+Residue:91
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6068:0.0254:s
+T2:0.0939:0.0017:s
+NOE:0.428:0.025:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6075:0.0343:s
+T2:0.0597:0.0079:s
+NOE:0.576:0.029:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 85 - RESIDUE 92
+Component:85
+Residue:92
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6277:0.0272:s
+T2:0.08:0.0024:s
+NOE:0.625:0.022:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6964:0.0189:s
+T2:0.0362:0.0022:s
+NOE:0.691:0.022:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 86 - RESIDUE 93
+Component:86
+Residue:93
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6906:0.03:s
+T2:0.0611:0.0027:s
+NOE:0.681:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.7133:0.0371:s
+T2:0.0312:0.0019:s
+NOE:0.775:0.029:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 87 - RESIDUE 94
+Component:87
+Residue:94
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7246:0.0194:s
+T2:0.0555:0.0011:s
+NOE:0.818:0.03:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8425:0.0305:s
+T2:0.0407:0.0012:s
+NOE:0.875:0.036:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 88 - RESIDUE 95
+Component:88
+Residue:95
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.753:0.0187:s
+T2:0.0586:0.0008:s
+NOE:0.837:0.038:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8389:0.0289:s
+T2:0.0395:0.0012:s
+NOE:0.902:0.051:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 89 - RESIDUE 96
+Component:89
+Residue:96
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7107:0.0182:s
+T2:0.0719:0.0026:s
+NOE:0.804:0.023:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8696:0.0219:s
+T2:0.0484:0.0019:s
+NOE:0.882:0.032:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 90 - RESIDUE 97
+Component:90
+Residue:97
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7102:0.0126:s
+T2:0.0646:0.0014:s
+NOE:0.822:0.023:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8157:0.0226:s
+T2:0.0455:0.0012:s
+NOE:0.876:0.025:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 91 - RESIDUE 98
+Component:91
+Residue:98
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6748:0.0223:s
+T2:0.0496:0.0045:s
+NOE:0.855:0.03:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.7782:0.02:s
+T2:0.0435:0.0018:s
+NOE:0.895:0.031:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 92 - RESIDUE 99
+Component:92
+Residue:99
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7348:0.0146:s
+T2:0.0621:0.0009:s
+NOE:0.86:0.029:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8511:0.0138:s
+T2:0.0496:0.0012:s
+NOE:0.918:0.029:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 93 - RESIDUE 100
+Component:93
+Residue:100
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7215:0.0193:s
+T2:0.063:0.0012:s
+NOE:0.849:0.027:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8889:0.0308:s
+T2:0.0453:0.0012:s
+NOE:0.938:0.037:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 94 - RESIDUE 101
+Component:94
+Residue:101
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7278:0.0138:s
+T2:0.0618:0.001:s
+NOE:0.848:0.025:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8532:0.0182:s
+T2:0.0447:0.0014:s
+NOE:0.909:0.03:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 95 - RESIDUE 103
+Component:95
+Residue:103
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7576:0.0241:s
+T2:0.0603:0.0007:s
+NOE:0.674:0.028:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:1.1351:0.018:s
+T2:0.0468:0.0017:s
+NOE:0.841:0.024:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 96 - RESIDUE 104
+Component:96
+Residue:104
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.753:0.0181:s
+T2:0.0668:0.0007:s
+NOE:0.84:0.023:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9234:0.0213:s
+T2:0.0493:0.0017:s
+NOE:0.841:0.023:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 97 - RESIDUE 105
+Component:97
+Residue:105
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.8117:0.0244:s
+T2:0.0553:0.0009:s
+NOE:0.817:0.021:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9363:0.0114:s
+T2:0.0415:0.0012:s
+NOE:0.904:0.024:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 98 - RESIDUE 106
+Component:98
+Residue:106
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7479:0.014:s
+T2:0.0701:0.0006:s
+NOE:0.853:0.023:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9141:0.0242:s
+T2:0.0482:0.0016:s
+NOE:0.841:0.025:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 99 - RESIDUE 107
+Component:99
+Residue:107
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7289:0.0133:s
+T2:0.0709:0.0022:s
+NOE:0.83:0.026:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9242:0.0205:s
+T2:0.0492:0.0021:s
+NOE:1.003:0.036:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 100 - RESIDUE 108
+Component:100
+Residue:108
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7452:0.0161:s
+T2:0.0649:0.001:s
+NOE:0.851:0.027:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9025:0.0171:s
+T2:0.0469:0.0014:s
+NOE:0.925:0.027:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 101 - RESIDUE 109
+Component:101
+Residue:109
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.817:0.0127:s
+T2:0.07:0.0032:s
+NOE:0.898:0.028:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:1.0989:0.0157:s
+T2:0.0406:0.0023:s
+NOE:0.93:0.029:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 102 - RESIDUE 110
+Component:102
+Residue:110
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.817:0.0147:s
+T2:0.0594:0.0008:s
+NOE:0.854:0.026:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.994:0.0217:s
+T2:0.0436:0.0012:s
+NOE:0.889:0.028:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 103 - RESIDUE 112
+Component:103
+Residue:112
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6402:0.0443:s
+T2:0.0432:0.005:s
+NOE:1.025:0.034:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.9416:0.0337:s
+T2:0.0526:0.0017:s
+NOE:0.907:0.031:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 104 - RESIDUE 113
+Component:104
+Residue:113
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.5838:0.014:s
+T2:0.0859:0.0007:s
+NOE:0.524:0.019:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6064:0.0158:s
+T2:0.0651:0.0032:s
+NOE:0.625:0.019:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 105 - RESIDUE 114
+Component:105
+Residue:114
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.5995:0.0262:s
+T2:0.1108:0.0015:s
+NOE:0.447:0.017:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6024:0.024:s
+T2:0.0833:0.0032:s
+NOE:0.619:0.019:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 106 - RESIDUE 115
+Component:106
+Residue:115
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6002:0.0494:s
+T2:0.1441:0.0046:s
+NOE:0.268:0.019:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.5227:0.0243:s
+T2:0.0991:0.0042:s
+NOE:0.478:0.025:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 107 - RESIDUE 116
+Component:107
+Residue:116
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7843:0.0332:s
+T2:0.0501:0.0025:s
+NOE:0.758:0.027:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.6698:0.0413:s
+T2:0.047:0.0029:s
+NOE:0.504:0.069:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 108 - RESIDUE 117
+Component:108
+Residue:117
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.3399:0.1047:s
+T2:0.0728:0.0028:s
+NOE:0.19:0.015:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.495:0.0243:s
+T2:0.1181:0.0052:s
+NOE:0.398:0.019:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 109 - RESIDUE 118
+Component:109
+Residue:118
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.4958:0.0602:s
+T2:0.1108:0.0017:s
+NOE:0.105:0.012:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.5173:0.0158:s
+T2:0.1327:0.008:s
+NOE:0.364:0.014:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 110 - RESIDUE 119
+Component:110
+Residue:119
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6105:0.0358:s
+T2:0.1174:0.0275:s
+NOE:-0.08:0.015:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.511:0.0222:s
+T2:0.1591:0.0118:s
+NOE:0.231:0.014:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 111 - RESIDUE 120
+Component:111
+Residue:120
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.6127:0.086:s
+T2:0.0751:0.0059:s
+NOE:-0.71:0.024:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.5333:0.0304:s
+T2:0.1834:0.0151:s
+NOE:0.075:0.017:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 112 - RESIDUE 121
+Component:112
+Residue:121
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.7032:0.0791:s
+T2:0.2021:0.0115:s
+NOE:-0.78:0.026:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.5811:0.0311:s
+T2:0.1781:0.0114:s
+NOE:-0.25:0.02:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg
+# data for component 113 - RESIDUE 122
+Component:113
+Residue:122
+# filed 1 - 14.1 T
+Field:600.3216:MHz
+T1:0.939:0.0943:s
+T2:0.1565:0.0155:s
+NOE:-1.78:0.025:-
+# filed 2 - 18.8 T
+Field:800.4288:MHz
+T1:0.8889:0.0253:s
+T2:0.2944:0.0373:s
+NOE:-1.22:0.026:-
+# M1F -> VF Euler angles
+Euler_angles:0.0:0.0:0.0:deg

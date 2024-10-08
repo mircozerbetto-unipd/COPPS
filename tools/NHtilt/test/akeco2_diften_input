@@ -1,0 +1,13 @@
+#Viscosity_Pa_s
+8.900000000000001E-4
+#Temperature_K
+298.15
+#Effective_Radius_A
+2.0
+#Boundary_Conditions
+6.0
+#PCM_threshold
+10.0
+Number_Of_Torsions
+0
+#Atoms_ID_defining_rotatable_bonds

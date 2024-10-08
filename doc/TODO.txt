@@ -1,0 +1,5 @@
+1) Calculation in case of the following logical expression is TRUE: [(c22!=0 | c42!=0) & c44!=0]
+2) Calculation of S4k (k = 0, 2 ,4) order parameters [see also point 1)]
+3) Allow different global/local diffusion tensors in the TS-SRLS and in
+   the 3S-FB models
+   
